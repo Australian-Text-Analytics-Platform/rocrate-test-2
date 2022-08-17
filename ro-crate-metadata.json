@@ -4,8 +4,11 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-08-16T23:56:21+00:00",
+            "datePublished": "2022-08-17T00:02:30+00:00",
             "hasPart": [
+                {
+                    "@id": "index.ipynb"
+                },
                 {
                     "@id": "sample_notebook.ipynb"
                 }
@@ -22,6 +25,23 @@
             }
         },
         {
+            "@id": "index.ipynb",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "#0000-0003-0879-9251"
+                }
+            ],
+            "description": "",
+            "encodingFormat": "application/x-ipynb+json",
+            "name": "index.ipynb"
+        },
+        {
+            "@id": "#0000-0003-0879-9251",
+            "@type": "Person",
+            "name": "Foley, Ben"
+        },
+        {
             "@id": "sample_notebook.ipynb",
             "@type": "File",
             "author": [
@@ -32,11 +52,6 @@
             "description": "",
             "encodingFormat": "application/x-ipynb+json",
             "name": "sample_notebook.ipynb"
-        },
-        {
-            "@id": "#0000-0003-0879-9251",
-            "@type": "Person",
-            "name": "Foley, Ben"
         }
     ]
 }
